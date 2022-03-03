@@ -1,5 +1,2 @@
-[main 66727ec] change user
- 2 files changed, 2 insertions(+), 1 deletion(-)
- rename 0x01-shell_permissions/{1-who_am_i => 0-iam_betty} (52%)
- mode change 100644 => 100755
- create mode 100644 0x01-shell_permissions/README.md
+#!/bin/bash
+su betty
