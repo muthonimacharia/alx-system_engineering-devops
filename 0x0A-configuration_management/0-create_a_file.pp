@@ -1,6 +1,7 @@
-#creates a file in the tmp dir of the node
+# Creates a file in /tmp
 
-file { 'holberton':
+file { '/tmp/holberton':
+  ensure  => file,
   path    => '/tmp/holberton',
   mode    => '0744',
   owner   => 'www-data',
